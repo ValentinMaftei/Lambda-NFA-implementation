@@ -18,7 +18,7 @@ def validare(cuvant, nod):
             if listeMici[1] == '#':                             # Iau cazul cu lambda in care nu trebuie sa sterg litera
                 traseu.append(nod)
                 validare(cuvant, listeMici[0])
-                if ok == 1:                                     # Din nou verific daca traseuk este bun sau trebuie sa ma intorc
+                if ok == 1:                                     # Din nou verific daca traseul este bun sau trebuie sa ma intorc
                     return None
                 traseu.pop()
 
