@@ -18,7 +18,33 @@ Datele de iesire, pentru fiecare string: contin DA, daca cuvantul este acceptat 
 
 Exemplu de date introduse în fisier:
 
-```3.Automat finit nedeterminist cu lambda tranzitii (lambda-NFA)InputOutput680 1 a0 2 #1 1 b1 3 #2 2 b2 4 c3 5 c4 5 c01 54ccbaaaabacacababaaa
+```
+Input:
+6 8
+0 1 a
+0 2 #
+1 1 b
+1 3 #
+2 2 b
+2 4 c
+3 5 c
+4 5 c
+0
+1 5
+4
+cc
+baaaabac
+ac
+ababaaa
+```
+```
+Output:
+DA
+Traseu: 0 2 4 5
+NU
+DA
+Traseu: 0 1 3 5
+NU
 ```
 
 # Data
@@ -61,3 +87,4 @@ NU
 DA
 Traseu: 0 1 3 5
 NU
+```
