@@ -18,6 +18,8 @@ Datele de iesire, pentru fiecare string: contin DA, daca cuvantul este acceptat 
 
 Exemplu de date introduse în fisier:
 
+##### # = lambda
+
 ```
 Input:
 6 8
@@ -60,6 +62,8 @@ The output data, for each string: contains YES, if the word is accepted and a po
 
 Example input data in file:
 
+
+##### # = lambda
 ```
 Input:
 6 8
